@@ -1,4 +1,4 @@
-FROM elixir:1.10.3
+FROM elixir:1.10.3-alpine
 
 MAINTAINER Foundry <info@foundrymakes.com>
 
