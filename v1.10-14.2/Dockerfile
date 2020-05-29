@@ -14,6 +14,9 @@ RUN \
     chmod -R 777 /opt/app && \
     apk update && \
     apk --no-cache --update add \
+      bash \
+      git \
+      openssh \
       make \
       g++ \
       wget \
