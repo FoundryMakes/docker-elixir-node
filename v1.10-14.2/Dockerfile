@@ -32,7 +32,7 @@ RUN \
 ENV PATH=./node_modules/.bin:$PATH
 
 # Ensure latest versions of Hex/Rebar are installed on build
-ONBUILD RUN mix local.hex local.rebar --force
+ONBUILD RUN mix local.hex --force && mix local.rebar --force
 
 WORKDIR /opt/app
 
